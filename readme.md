@@ -13,7 +13,7 @@ To get to the 'should' state, there is an in-between situation, where 'plain htm
 In this in-between situation, the following statements apply:
 - Current pages build process relies on Gulp, but the build is very simple. (can and should remain the same)
   - Development mode: Copy over the html from /src/main/resources/templates to /target/classes/templates and other static resources from /src/main/resources/static to /target/classes/static
-  - Production mode: Same copy action but now pipe through terser and uglifyjs.  
+  - Production mode: Same copy action but now pipe through terser and uglifycss.  
 - Current pages (Plain JS) and new pages (React) do NOT need to interact.
 - All new web page development should be done with React and be stored in /src/main/react-app
 - New page development will replace current html pages one-by-one and this is not SPA, so
